@@ -5,3 +5,11 @@
 .user-info img{
     border-radius: 50%;
 }
+@media screen and (max-width: 576px) {
+
+    .user-info img {
+        border-radius: 0%;
+        width: 30%;
+    }
+
+}

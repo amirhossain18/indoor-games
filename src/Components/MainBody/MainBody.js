@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Cart from '../Card/Cart';
+import { Cart, getStoreTime } from '../Card/Cart';
+
 import Games from '../Games/Games';
 
 import "./MainBody.css"
@@ -13,12 +14,26 @@ const MainBody = () => {
     .then(data=>setGames(data))
    },[])
 
+
+   useEffect(()=>{
+ const loadTime= getStoreTime();
+ console.log(loadTime)
+ const saveTime= [];
+  saveTime.push= loadTime
+  setTime(saveTime);
+ 
+   },[])
+
    function handeladdToCart(game) {
     console.log(game)
     const newTime =[...time, game ];
+    
     setTime(newTime)
+    
 
    }
+
+
     return (
         <div className="games-page">
             
@@ -33,11 +48,11 @@ const MainBody = () => {
                     ></Games>)
                 }
 
-
          </div>
          <div className="time-calculation">
       
          <Cart cart={time}
+
           
          ></Cart>
          </div>

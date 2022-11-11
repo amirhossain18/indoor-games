@@ -5,3 +5,17 @@
     top: 0px;
 
 }
+
+.button-group{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.btn-active{
+    background-color: green;
+}
+
+.btn-sec{
+    border-radius: 20px;    ;
+}
