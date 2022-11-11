@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Card/Cart';
 import Games from '../Games/Games';
-import TimeCalculatin from '../TimeCalculatin/TimeCalculatin';
+
 import "./MainBody.css"
 const MainBody = () => {
     const [games, setGames]=useState([]);
@@ -35,8 +36,10 @@ const MainBody = () => {
 
          </div>
          <div className="time-calculation">
-            <TimeCalculatin></TimeCalculatin>
-            Game Addede {time.length}
+      
+         <Cart cart={time}
+          
+         ></Cart>
          </div>
         </div>
     );
