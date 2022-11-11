@@ -1,0 +1,74 @@
+[
+  {
+    "id": 2545455454545,
+    "title": "Ludo",
+    "image": "https://i.ibb.co/BwpBj5x/ludo.jpg",
+    "description": "Ludo King is a digital Ludo board game played across South East Asia and around the world. The game recently crossed 800 million downloads globally.",
+    "age":"10-15",
+    "time": "2"
+  },
+  {
+    "id": 2545455454585,
+    "title": "Snake and Ladder",
+    "image":"https://i.ibb.co/Bfp2DSk/snake-and-ladders.jpg",
+    "description": "One hundred squares full of traps and tricks… Roll the dice and try your luck! Ladders will take you up but Snakes will take you down! This is a great game",
+    "age":"10-15",
+    "time": "2"
+  },
+  {
+    "id": 2545455454587,
+    "title": "Monopoly",
+    "image":"https://i.ibb.co/F4P7W4y/monolipi.jpg",
+    "description": "Monopoly is the classic fast-dealing property trading board game. Find all of the latest versions in the store, play free online games",
+    "age":"10-15",
+    "time": "2"
+  },
+  {
+    "id": 25745455454577,
+    "title": "Card Games",
+    "image":"https://i.ibb.co/vZm0wsF/playing-cards-fan.jpg",
+    "description": "Play classic card games like Hearts, Spades, Solitaire, Free Cell and Euchre for free. No sign-up or download necessary!",
+    "age":"10-15",
+    "time": "2"
+  },
+  {
+    "id": 25444554545428,
+    "title": "Carrom",
+    "image":"https://i.ibb.co/GJzPq1y/striker-carrom-equipment.png",
+    "description": "Carrom is a tabletop game of Indian origin. The game is very popular in the Indian subcontinent, and is known by various names in different languages.",
+    "age":"10-15",
+    "time": "2"
+  },
+  {
+    "id": 2578445545458767,
+    "title": "Chess",
+    "image":"https://i.ibb.co/F4P7W4y/monolipi.jpg",
+    "description": "Play chess online for free on Chess.com with over 50 million members from around the world. Have fun playing with friends or challenging the computer!",
+    "age":"10-15",
+    "time": "2"
+  },
+  {
+    "id": 257844557854757,
+    "title": "Musical Chair",
+    "image":"https://i.ibb.co/F4P7W4y/monolipi.jpg",
+    "description": "Musical chairs, also known as Trip to Jerusalem, is a game of elimination involving players, chairs, and music. It is a staple of many parties worldwide.",
+    "age":"10-15",
+    "time": "2"
+  },
+  {
+    "id": 2578445856545874,
+    "title": "Video Games",
+    "image":"https://i.ibb.co/F4P7W4y/monolipi.jpg",
+    "description": "They need water, or they will die.",
+    "age":"10-15",
+    "time": "2"
+  },
+  {
+    "id": 2578445856545870,
+    "title": "Jenga",
+    "image":"https://i.ibb.co/F4P7W4y/monolipi.jpg",
+    "description": "Video games, also known as computer games, are electronic games that involves interaction with a user interface or input device – such as a joystick,",
+    "age":"10-15",
+    "time": "2"
+  }
+]
