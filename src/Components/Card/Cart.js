@@ -34,7 +34,7 @@ const Cart = (props) => {
 
 
     return (
-        <div className="cart bg-warning border-2">
+        <div className="cart bg-warning rounded">
            <TimeCalculatin></TimeCalculatin>
     
          
@@ -51,7 +51,11 @@ const Cart = (props) => {
            Extra Time : {breakTime}
          </h6>
          <div>
-        <button onClick={notify}>Notify!</button>
+        
+        <div className='btn '>
+        <button onClick={notify} type="button"  className="btn btn-success m-2 ">Success</button>
+        <button type="button" className="btn btn-danger">Cancel</button>
+        </div>
         <ToastContainer />
       </div>
         </div>

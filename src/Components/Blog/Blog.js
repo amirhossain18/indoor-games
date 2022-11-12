@@ -4,12 +4,12 @@ import React from 'react';
 const Blog = () => {
     
     return (
-        <div>
-     
+        <div className="container">
+       <h2 id="blog" className="text-center">Our Blog</h2>
      <div class="card">
-  <h5 class="card-header">Featured</h5>
+  <h5 class="card-header">how does react work</h5>
   <div class="card-body">
-    <h5 class="card-title">how does react work</h5>
+   
     <p class="card-text">React Features
 React has some core features that make it stand out from other JavaScript libraries. The following sections will introduce you to these features and explain how they contribute to mobile and web application development.
 
@@ -47,37 +47,14 @@ A state is a JavaScript object that represents a part of a component. It changes
 
 State management refers to the practice of managing React application states. It includes storing data in third-party state management libraries and triggering the re-rendering process each time data is changed.
 
-A state management library facilitates communication and data sharing between React components. Several third-party state management libraries are available today, but Redux and Recoil are two of the most popular.
-
-Redux
-
-The Redux state management library has a centralized store, which keeps the state tree of an application predictable. The library also reduces data inconsistency by preventing two components from updating the application’s state simultaneously.
-
-Redux’s architecture supports error logging for easier debugging and has a strict code organization method, simplifying maintenance. Additionally, it features a large number of addons and is compatible with all UI layers.
-
-That said, Redux is rather complex and hence suboptimal for small applications with a single data source.
-
-Recoil
-
-Recoil is a JavaScript state management library released by Facebook. It employs pure functions called selectors to calculate data from updateable units of the state known as atoms. Multiple components can subscribe to the same atom and thus share a state.
-
-The use of atoms and selectors prevents redundant states, simplifies code, and eliminates excessive re-renders of React and any child components. Recoil is more suitable for beginners than Redux because its core concepts are considerably easier to grasp.
-
-Programmatic Navigation
-Programmatic navigation refers to instances when lines of code create an action that redirects a user. Login and signup actions, for instance, programmatically navigate users to new pages.
-
-React Router, React’s standard library for routing, provides multiple ways of safe programmatic navigation between components without requiring the user to click on a link.
-
-Using a Redirect component is the primary method of programmatic navigation with history.push() being another approach.
-
-In short, the React Router package synchronizes the UI with the URL, giving you control over the look of React applications without depending on links.</p>
+</p>
  
   </div>
 </div>
 <div class="card">
-  <h5 class="card-header">Featured</h5>
+  <h5 class="card-header">Difference between State and Props</h5>
   <div class="card-body">
-    <h5 class="card-title">Difference between State and Props</h5>
+  
     <p class="card-text">React is an opensource JavaScript library that offers a visual overview of the JavaScript architecture for conventional MVC. React promises programmers a model in which substrates cannot directly influence enclosing components—data are downstream, data changes in HTML are efficiently modified, and the DOM is abstracted to boost performance using Virtual DOM.
 
 How can we access data from the previous component if the data is just being flowed from components to components? The answer is props. React uses data transmission props that we need to transfer to various components. 
@@ -91,7 +68,7 @@ A prop can be passed on to the child in the state of a parent. They apply to the
 <div class="card">
   <h5 class="card-header">why use useeffect without api call ?</h5>
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
+ 
     <p class="card-text">Making API calls on useEffects can be error-prone or downright slow. So it's best to avoid it unless you certainly have to. You really want some library to handle the data fetching for you..</p>
  
   </div>

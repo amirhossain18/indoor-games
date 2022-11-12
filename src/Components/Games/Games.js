@@ -1,5 +1,6 @@
 import React from 'react';
-import './Games.css'
+import './Games.css';
+
 
 const Games = (props) => {
     const {title ,description , image , age, time}= props.gamesItem
