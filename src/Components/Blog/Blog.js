@@ -6,11 +6,11 @@ const Blog = () => {
     return (
         <div className="container">
        <h2 id="blog" className="text-center">Our Blog</h2>
-     <div class="card">
-  <h5 class="card-header">how does react work</h5>
-  <div class="card-body">
+     <div className="card">
+  <h5 className="card-header">how does react work</h5>
+  <div className="card-body">
    
-    <p class="card-text">React Features
+    <p className="card-text">React Features
 React has some core features that make it stand out from other JavaScript libraries. The following sections will introduce you to these features and explain how they contribute to mobile and web application development.
 
 JSX
@@ -51,11 +51,11 @@ State management refers to the practice of managing React application states. It
  
   </div>
 </div>
-<div class="card">
-  <h5 class="card-header">Difference between State and Props</h5>
-  <div class="card-body">
+<div className="card">
+  <h5 className="card-header">Difference between State and Props</h5>
+  <div className="card-body">
   
-    <p class="card-text">React is an opensource JavaScript library that offers a visual overview of the JavaScript architecture for conventional MVC. React promises programmers a model in which substrates cannot directly influence enclosing components—data are downstream, data changes in HTML are efficiently modified, and the DOM is abstracted to boost performance using Virtual DOM.
+    <p className="card-text">React is an opensource JavaScript library that offers a visual overview of the JavaScript architecture for conventional MVC. React promises programmers a model in which substrates cannot directly influence enclosing components—data are downstream, data changes in HTML are efficiently modified, and the DOM is abstracted to boost performance using Virtual DOM.
 
 How can we access data from the previous component if the data is just being flowed from components to components? The answer is props. React uses data transmission props that we need to transfer to various components. 
 
@@ -65,11 +65,11 @@ A prop can be passed on to the child in the state of a parent. They apply to the
  
   </div>
 </div>
-<div class="card">
-  <h5 class="card-header">why use useeffect without api call ?</h5>
-  <div class="card-body">
+<div className="card">
+  <h5 className="card-header">why use useeffect without api call ?</h5>
+  <div className="card-body">
  
-    <p class="card-text">Making API calls on useEffects can be error-prone or downright slow. So it's best to avoid it unless you certainly have to. You really want some library to handle the data fetching for you..</p>
+    <p className="card-text">Making API calls on useEffects can be error-prone or downright slow. So it's best to avoid it unless you certainly have to. You really want some library to handle the data fetching for you..</p>
  
   </div>
 </div>

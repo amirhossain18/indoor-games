@@ -18,7 +18,7 @@ const Cart = (props) => {
   
   },[])
 
-  const notify = () => toast("Wow so easy!");
+  const notify = () => toast("your data submite successfully !");
  
    const {cart}= props
   let total = 0;
@@ -42,10 +42,10 @@ const Cart = (props) => {
           <h2> time: {total} Hours  </h2>
      
           <div className="button-group">
-       <button className='btn-sec' onClick={()=>extratime(15)}>15s </button>
-         <button  className='btn-sec'  onClick={()=>extratime(30)}>30s </button>
-         <button  className='btn-sec'  onClick={()=>extratime(45)}>45s </button>
-         <button  className='btn-sec'  onClick={()=>extratime(1)}>1M </button>
+       <button className='btn-sec' onClick={()=>extratime('15s')}>15s </button>
+         <button  className='btn-sec'  onClick={()=>extratime('30s')}>30s </button>
+         <button  className='btn-sec'  onClick={()=>extratime('45s')}>45s </button>
+         <button  className='btn-sec'  onClick={()=>extratime('1m')}>1M </button>
        </div>
        <h6 id="settime">
            Extra Time : {breakTime}
