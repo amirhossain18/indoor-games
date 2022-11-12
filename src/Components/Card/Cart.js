@@ -2,6 +2,8 @@ import React from 'react';
 import TimeCalculatin from '../TimeCalculatin/TimeCalculatin';
 import './Cart.css'
 import '../MainBody/MainBody.css'
+
+
 const getStoreTime=(time)=>{
     const storeTime= localStorage.getItem('Extra-Time')
     const settime= document.getElementById('settime')
@@ -12,7 +14,7 @@ const getStoreTime=(time)=>{
     }
 const Cart = (props) => {
 
-    
+ 
    const {cart}= props
   let total = 0;
   for (const game of cart){
