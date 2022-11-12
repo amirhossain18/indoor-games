@@ -7,7 +7,7 @@ import "./MainBody.css"
 const MainBody = () => {
     const [games, setGames]=useState([]);
     const [ time, setTime] = useState([]);
-  
+//   fackData load
    useEffect( ()=>{
     fetch('games.json')
     .then(res=>res.json())
@@ -16,8 +16,8 @@ const MainBody = () => {
 
 
    useEffect(()=>{
-    let loadTime=0;
-loadTime= getStoreTime();
+   
+const loadTime= getStoreTime();
  console.log(loadTime)
  const saveTime= [];
   saveTime.push= loadTime
